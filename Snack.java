@@ -1,3 +1,5 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class Snack {
     private int artikelcode;
     private String naam;
@@ -35,4 +37,9 @@ public class Snack {
     public void setPrijs(int prijs) {
         this.prijs = prijs;
     }
+
+    public static void main(String[] args) {
+        System.out.println("helkdqm");
+    }
+
 }
