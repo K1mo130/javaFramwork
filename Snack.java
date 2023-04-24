@@ -3,6 +3,9 @@ public class Snack {
     private String naam;
     private int prijs;
 
+    public Snack() {
+    }
+
     public Snack(int artikelcode, String naam, int prijs) {
         this.artikelcode = artikelcode;
         this.naam = naam;
@@ -32,6 +35,4 @@ public class Snack {
     public void setPrijs(int prijs) {
         this.prijs = prijs;
     }
-
-
 }
