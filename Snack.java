@@ -42,4 +42,8 @@ public class Snack {
         System.out.println("helkdqm");
     }
 
+    @Override
+    public String toString() {
+        return "Snack(" + "artikelcode=" + artikelcode + ", naam='" + naam  + ", prijs=" + prijs + ")";
+    }
 }
